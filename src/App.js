@@ -63,7 +63,6 @@ class App extends Component {
   render() {
     const { filter } = this.state;
     const filteredContacts = this.getFilteredContacts();
-
     return (
       <div className={s.wrapper}>
         <Section>
